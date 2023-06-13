@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>소설 생성</title>
+    <link rel="stylesheet" href="../css/creator.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1 class="logo">
+        <img src="../img/logo.png" alt="소설생성기" />
+      </h1>
+    </div>
+    <section class="generator">
+      <div class="etc">
+        <ul id="infoList"></ul>
+      </div>
+      <div class="novel">
+        <ul id="chatList" class="novel-list"></ul>
+      </div>
+    </section>
+
+    <div id="loading-indicator" class="loading-indicator">
+      <div class="loading">
+        <img src="../img/loading.png" alt="로딩중" />
+      </div>
+      <div class="loadingChar">
+        <img src="../img/loading2.png" alt="소설을 작성하는 중입니다" />
+      </div>
+    </div>
+
+    <script src="../js/creator.js"></script>
+  </body>
+</html>
