@@ -5,14 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>고민 상담 챗봇</title>
+
+    <!-- custom css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/darkmode.css" />
+    <!-- // custom css -->
+
+    <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
       rel="stylesheet"
     />
+    <!-- // google font -->
+
     <link rel="web icon" href="./assets/img/bot.png" />
   </head>
 
@@ -21,13 +28,23 @@
     <div class="header">
       <h1><img src="./assets/img/logo.png" alt="로고" /></h1>
     </div>
+    <!-- //로고 -->
+
     <!-- 채팅 -->
     <div class="chat-container" id="chat-container">
-      <div class="chat-header">고민상담방</div>
+      <div class="chat-header">
+        <div class="back">
+          <button onclick="window.location.href='../index.html'">
+            <img src="./assets/img/back.png" alt="뒤로가기" />
+          </button>
+        </div>
+        <p>고민상담방</p>
+      </div>
     </div>
     <div class="chating">
       <ul id="chat-list" class="chat-list"></ul>
     </div>
+    <!-- // 채팅 -->
 
     <!-- 사용자 -->
     <form id="chat-form" action="post" class="chat-form">
@@ -42,16 +59,20 @@
             <img id="dark-image" src="./assets/img/moon.png" alt="dark-icon" />
           </button>
         </div>
+        <!-- // 다크모드 -->
       </div>
     </form>
+    <!-- // 사용자 -->
 
     <!-- 로딩 표시 -->
     <div class="loading-indicator" id="loading-indicator">
       <div class="loading-text"></div>
     </div>
+    <!-- // 로딩 표시 -->
 
     <!-- js 연결 -->
     <script src="./assets/js/index.js"></script>
     <script src="./assets/js/darkmode.js"></script>
+    <!-- // js 연결 -->
   </body>
 </html>
