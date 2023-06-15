@@ -49,3 +49,69 @@ body {
     transform: translateY(0);
   }
 }
+
+/* 뒤로 가기 */
+.back {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.back button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.back img {
+  width: 40px;
+  height: auto;
+}
+
+/* 홈화면으로 가기 */
+.home {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.home button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.home img {
+  width: 40px;
+  height: auto;
+}
+
+/* 뒤로 가기 */
+.back {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.back button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.back img {
+  width: 40px;
+  height: auto;
+}
