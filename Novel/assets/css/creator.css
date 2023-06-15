@@ -31,6 +31,8 @@ ul {
   margin-top: 30px;
   overflow-y: auto;
   max-width: 600px;
+  font-family: "Gaegu", cursive;
+  z-index: 1;
 }
 
 /* 입력 정보 */
@@ -39,6 +41,8 @@ ul {
   background-color: #83c4f8;
   border-radius: 5px;
   text-align: center;
+  font-family: "Hahmlet", serif;
+  font-weight: bold;
 }
 
 /* 애니메이션 */
@@ -90,4 +94,48 @@ ul {
   justify-content: center;
   flex-direction: column;
   animation: wave 3s infinite ease-in-out;
+}
+
+/* 홈화면으로 가기 */
+.home {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.home button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.home img {
+  width: 40px;
+  height: auto;
+}
+
+/* 뒤로 가기 */
+.back {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.back button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.back img {
+  width: 40px;
+  height: auto;
 }
