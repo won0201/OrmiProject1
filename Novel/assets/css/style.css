@@ -28,6 +28,7 @@ h1 > img {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  font-family: "Poor Story", cursive;
 }
 
 input[type="text"] {
@@ -35,6 +36,8 @@ input[type="text"] {
   height: 50px;
   text-align: center;
   border-radius: 10px;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .submit-button {
@@ -55,4 +58,25 @@ input[type="text"] {
 
 .submit-button button:hover {
   background-color: #45a049;
+}
+
+/* 홈화면으로 가기 */
+.home {
+  display: inline-block;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: -40px;
+  margin-left: -90%;
+}
+
+.home button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.home img {
+  width: 40px;
+  height: auto;
 }
