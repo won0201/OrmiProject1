@@ -118,6 +118,10 @@ ul {
   height: auto;
 }
 
+.home button:hover {
+  transform: scale(1.05);
+}
+
 /* 뒤로 가기 */
 .back {
   position: fixed;
@@ -138,4 +142,8 @@ ul {
 .back img {
   width: 40px;
   height: auto;
+}
+
+.back button:hover {
+  transform: scale(1.05);
 }
