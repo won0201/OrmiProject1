@@ -8,10 +8,44 @@ body {
 }
 
 /* 헤더 */
-.header {
+header {
+  align-items: center;
+  justify-content: center;
+}
+
+.header p {
+  text-align: center;
+}
+
+/* 뒤로 가기 */
+.back {
   display: flex;
   align-items: center;
-  margin-bottom: -20px;
+  margin-bottom: -50px;
+}
+
+.back button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.back img {
+  width: 40px;
+  height: auto;
+  margin-right: 5px;
+}
+
+/* 채팅 헤드라인 */
+.chat-header {
+  background-color: #f8bbcc;
+  padding: 20px;
+  margin-bottom: -10px;
+  text-align: center;
+  font-family: "Jua", sans-serif;
+  font-size: 20px;
+  color: #19191ad0;
 }
 
 /* h1 */
@@ -135,16 +169,7 @@ h1 > img {
   width: 60vh;
 }
 
-/* 채팅 헤드라인 */
-.chat-header {
-  background-color: #f8bbcc;
-  padding: 20px;
-  text-align: center;
-  font-family: "Jua", sans-serif;
-  font-size: 20px;
-  color: #19191ad0;
-}
-
+/* 채팅 리스트 */
 .chat-list {
   list-style-type: none;
   padding: 10px;
