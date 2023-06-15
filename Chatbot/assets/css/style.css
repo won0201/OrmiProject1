@@ -37,6 +37,10 @@ header {
   margin-right: 5px;
 }
 
+.back button:hover {
+  transform: scale(1.05);
+}
+
 /* 채팅 헤드라인 */
 .chat-header {
   background-color: #648cc2;
@@ -57,6 +61,8 @@ h1 {
 h1 > img {
   height: 90px;
   margin-right: 10px;
+  margin-top: -20px;
+  margin-bottom: -20px;
 }
 
 /* 채팅 */
@@ -247,8 +253,8 @@ h1 > img {
 }
 
 .submit-button {
-  width: 50px;
-  height: 40px;
+  width: 46px;
+  height: auto;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -258,6 +264,10 @@ h1 > img {
 .submit-button img {
   width: 100%;
   height: auto;
+}
+
+.submit-button:hover {
+  transform: scale(1.05);
 }
 
 /* darkmode */
@@ -275,4 +285,8 @@ h1 > img {
   cursor: pointer;
   height: 30px;
   width: 30px;
+}
+
+.dark-mode button:hover {
+  transform: scale(1.05);
 }
