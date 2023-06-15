@@ -62,11 +62,12 @@ input[type="text"] {
 
 /* 홈화면으로 가기 */
 .home {
-  display: inline-block;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  margin-top: -40px;
-  margin-left: -90%;
 }
 
 .home button {
@@ -79,4 +80,8 @@ input[type="text"] {
 .home img {
   width: 40px;
   height: auto;
+}
+
+.home button:hover {
+  transform: scale(1.05);
 }
