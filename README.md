@@ -1,4 +1,5 @@
-# 상담, 소설 생성 서비스 (작성중)
+# 상담, 소설 생성 서비스
+
 
 ## 1. 목표와 기능
 ### 1.1 목표
@@ -32,3 +33,107 @@
 - 의료비서챗봇에 증상을 이야기하여 쉽고 빠르게 자가진단할 수 있도록 함
 - 먹고있는 약의 정보도 하나하나 찾아보는게 아니라 의료비서챗봇을 통해 부작용과 유의사항을 쉽게 알 수 있도록 함
 
+
+## 2. 개발 환경 및 배포 URL
+### 2.1 개발 환경
+- html, css, js
+### 2.2 배포 URL
+- https://won0201.github.io/Ormi_Project1/
+
+
+## 3. 프로젝트 구조와 개발 일정
+### 3.1 프로젝트 구조
+```
+|   index.html
+|   README.md
+|   
++---assets
+|   +---css
+|   |       style.css
+|   |       
+|   +---img
+|   |       chating.jpg
+|   |       logo.png
+|   |       novel.jpg
+|   |       room.jpg
+|   |       service.png
+|   |       stethoscope.jpg
+|   |       
+|   \---js
+|           index.js
+|           
++---Chatbot
+|   |   index.html
+|   |   
+|   \---assets
+|       +---css
+|       |       darkmode.css
+|       |       style.css
+|       |       
+|       +---img
+|       |       bot.png
+|       |       logo.png
+|       |       logo2.png
+|       |       moon.png
+|       |       submit.png
+|       |       sun.png
+|       |       user.png
+|       |       
+|       \---js
+|               darkmode.js
+|               index.js
+|               
++---Medical
+|   |   index.html
+|   |   
+|   \---assets
+|       |   style2.css
+|       |   style3.css
+|       |   
+|       +---css
+|       |       darkmode.css
+|       |       style.css
+|       |       
+|       +---img
+|       |       logo.png
+|       |       moon.png
+|       |       nurse.png
+|       |       submit.png
+|       |       sun.png
+|       |       user.png
+|       |       
+|       \---js
+|               darkmode.js
+|               index.js
+|               
+\---Novel
+    |   index.html
+    |   
+    \---assets
+        +---css
+        |       creator.css
+        |       loading.css
+        |       style.css
+        |       
+        +---html
+        |       creator.html
+        |       loading.html
+        |       
+        +---img
+        |       book.png
+        |       loading.png
+        |       loading2.png
+        |       logo.png
+        |       
+        \---js
+                creator.js
+                index.js
+                loading.js
+```
+- 기본 페이지에서 3가지 페이지로 연결되는 구조
+
+### 3.2 개발일정
+- 2023.06.01 ~ 2023.06.15  
+
+## 4. 세부 기능
+### 4.1 고민상담챗봇
