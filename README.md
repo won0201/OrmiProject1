@@ -137,3 +137,4 @@
 
 ## 4. 세부 기능
 ### 4.1 전체 페이지
+<img width="914" alt="full page" src="https://github.com/won0201/Ormi_Project1/assets/114564396/17183232-3feb-4b20-b6b0-fca24b51250d">
