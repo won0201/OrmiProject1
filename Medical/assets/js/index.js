@@ -198,3 +198,11 @@ chatForm.addEventListener("submit", (e) => {
   sendQuestion(question);
   apiPost();
 });
+
+// h1 img 클릭시 새로고침
+const logoImage = document.getElementById("logo-image");
+logoImage.addEventListener("click", refreshPage);
+
+function refreshPage() {
+  location.reload();
+}
