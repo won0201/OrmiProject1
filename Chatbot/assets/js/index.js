@@ -198,3 +198,11 @@ chatForm.addEventListener("submit", (e) => {
   sendQuestion(question);
   apiPost();
 });
+
+// h1 클릭시 초기화
+const logoImage = document.getElementById("logo-image");
+logoImage.addEventListener("click", refreshPage);
+
+function refreshPage() {
+  location.reload();
+}
