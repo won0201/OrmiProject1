@@ -63,6 +63,7 @@ h1 > img {
   margin-right: 10px;
   margin-top: -20px;
   margin-bottom: -20px;
+  cursor: pointer;
 }
 
 /* 채팅 */
