@@ -9,7 +9,7 @@ body {
 
 /* 헤더 */
 h1 > img {
-  height: 30vh;
+  height: 20vh;
   display: flex;
   align-items: center;
   justify-content: center;
